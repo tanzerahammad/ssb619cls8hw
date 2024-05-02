@@ -1,0 +1,100 @@
+
+h1{
+	color: green;
+}
+
+.h3{
+	font-size: 20px;
+	color: yellow;
+	border: red solid 2px;
+	background-color: red;
+}
+
+.p1{
+	color: black;
+
+}
+#p2{
+	color: black;
+	background-color: red;
+}
+
+.box{
+	width: 300px;
+	height: 100px;
+	background-color: red;
+}
+.box1{
+	width: 100pt;
+	height: 100px;
+	background-color: blue;
+}
+.box2{
+	width: 50em;
+	height: 100px;
+	background-color:green;
+}
+.box3{
+	width: 30rem;
+	height: 100px;
+	background-color: black;
+}
+.box4{
+	width: 50%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, .20);
+}
+
+
+input:checked{
+	height: 50px;
+	width: 50px;
+}
+input[type=radio]{
+	accent-color: green;
+}
+input[type=range]{
+	accent-color: rgb(0, 0, 255);
+}
+progress{
+	accent-color: hsl(39, 100%, 50%, 1.0);
+}
+
+body{
+	background-color: #E7E9EB;
+}
+
+#main{
+	background-color: #ffffff;
+	width: 500px;
+	height: 300px;
+	border: 2px solid red;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+#main > div{
+	flex: 1;
+	border: 1px solid black;
+	width: 80px;
+	height: 40px;
+	display: flex;
+}
+h1::after{
+	content: "  - Remember me";
+}
+p.center{
+	text-align: center;
+	color: red;
+}
+p.large{
+	font-size: 300%;
+}
+*{
+	background-color: yellow;
+}
+a[target]{
+	background-color: black;
+}
+a:hover {
+  background-color: blue;
